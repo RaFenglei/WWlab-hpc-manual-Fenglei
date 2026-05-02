@@ -1,0 +1,56 @@
+site_name: WWlab HPC Bioinformatics & AI4Bio Manual
+site_description: 生物信息组 HPC、组学分析与 AI4Bio 软件使用手册
+site_url: https://RaFenglei.github.io/WWlab-hpc-manual-Fenglei/
+repo_url: https://github.com/RaFenglei/WWlab-hpc-manual-Fenglei
+repo_name: RaFenglei/WWlab-hpc-manual-Fenglei
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 首页: index.md
+  - 新同学上手: 00_getting_started.md
+  - HPC 使用规则: 01_hpc_rules.md
+  - 数据与存储管理: 02_storage.md
+  - 软件环境管理: 03_environment.md
+  - 基础工具: 04_basic_tools.md
+  - 基因组学: 05_genomics.md
+  - 多组学: 06_multiomics.md
+  - 单细胞与空间组学: 07_singlecell_spatial.md
+  - 蛋白结构与设计: 08_protein_design.md
+  - AI4Bio 与大模型: 09_ai4bio.md
+  - 数据库与模型权重: 10_databases_models.md
+  - 任务与日志: 11_jobs_logs.md
+  - 常见错误: 12_troubleshooting.md
+  - 软件条目模板: 13_software_template.md
+  - 软件总表: 14_software_table.md
